@@ -1,0 +1,8 @@
+To train, run one of the train_xxx_model.py files.
+
+You will need to 
+	`pip install stable_baselines3[extra]`
+	`pip install sb3_contrib`
+
+The console will output avg episode length and avg reward, 
+if you run "tensorboard --logdir logs" in terminal or powershell while in the project folder and then go to http://localhost:6006/ in your web-browser it should graph the training progress.
